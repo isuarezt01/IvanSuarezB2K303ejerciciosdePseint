@@ -1,6 +1,6 @@
 Proceso HORAS_MIN_SEG
 	
-	Definir hora, min, seg Como Entero;
+	Definir horas, min, seg Como Entero;
 	Definir horas_seg, min_seg, total Como Entero;
 	
 	Escribir "Ingrese las horas: ";
