@@ -14,7 +14,7 @@ Proceso HORAS_MIN_SEG
 	min_seg <- min * 60;
 	total <- horas_seg + min_seg;
 	
-	Escribir "Los segundos equivalentes son:",total;
+	Escribir "Los segundos equivalentes son:", total;
 
 	
 FinProceso
