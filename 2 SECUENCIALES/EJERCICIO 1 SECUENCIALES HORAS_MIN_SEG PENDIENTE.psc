@@ -1,22 +1,20 @@
 Proceso HORAS_MIN_SEG
 	
-	Definir exam_A, exam_B, exam_C Como Entero;
-	Definir minA, minB, minC Como Entero;
-	Definir total_min, total_horas Como Entero;
+	Definir hora, min, seg Como Entero;
+	Definir horas_seg, min_seg, total Como Entero;
 	
-	Escribir "Ingrese cantidad de evaluaciones A:";
-	Leer exam_A;
-	Escribir "Ingrese cantidad de evaluaciones B:";
-	Leer exam_B;
-	Escribir "Ingrese cantidad de evaluaciones C:";
-	Leer exam_C;
+	Escribir "Ingrese las horas: ";
+	Leer horas;
+	Escribir "Ingrese los minutos: ";
+	Leer min;
+	Escribir "Ingrese los segundos: ";
+	Leer seg;
 	
-	minA <- exam_A * 5;
-	minB <- exam_B * 8;
-	minC <- exam_C * 6;
-
+	horas_seg <- horas * 3600;
+	min_seg <- min * 60;
+	total <- horas_seg + min_seg;
 	
-	Escribir "Revision total en minutos:",total_min;
+	Escribir "Los segundos equivalentes son:",total;
 
 	
 FinProceso
